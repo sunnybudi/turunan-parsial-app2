@@ -3,7 +3,7 @@ import sympy as sp
 import numpy as np
 import matplotlib.pyplot as plt
 
-st.title("^ Aplikasi Turunan Parsial")
+st.title("📈 Aplikasi Turunan Parsial")
 
 x, y = sp.symbols('x y')
 fungsi_str = st.text_input("Masukkan fungsi f(x, y):", "x*3 + y + y*2")
