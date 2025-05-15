@@ -27,7 +27,7 @@ try:
     st.write(f"Nilai fungsi di titik (x₀, y₀):", f_val)
     st.write(f"Gradien di titik (x₀, y₀):", f"({fx_val}, {fy_val})")
 
-    st.subheader("🟩 Grafik Permukaan & Bidang Singgung")
+    st.subheader("Grafik Permukaan & Bidang Singgung")
 
     x_vals = np.linspace(x0 - 2, x0 + 2, 50)
     y_vals = np.linspace(y0 - 2, y0 + 2, 50)
